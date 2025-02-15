@@ -1,5 +1,6 @@
 import './App.css';
 import List from './list';
+import Post from './post';
 // import Usehook from './usehook';
 
 const Dumydata = [
@@ -29,7 +30,8 @@ function App() {
   return (
     <div className="App">
      {/* <Usehook/> */}
-     <List data={Dumydata}/>
+     {/* <List data={Dumydata}/> */}
+     <Post/>
     </div>
   );
 }
